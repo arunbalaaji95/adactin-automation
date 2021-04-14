@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="66.117877">
+<testcase classname="Pass values" name="To validate the booking details functionality" time="34.730183">
+<system-out><![CDATA[Given User is in adactin login page.........................................passed
+When User enter valid username and password.................................passed
+And User click login button.................................................passed
+Given User is in adactin booking details page...............................passed
+When user select "Sydney" and "Hotel Creek" and "Standard" and "1 - One" and "1 - One" and "1 - One".passed
+And user select the required hotel and click continue.......................passed
+And user enter the "arun" and "balaaji" and "dadas" and "1234567891234567" select"American Express" and "January" and "2022" and "123" click book now.passed
+Then user in booking confirmation page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pass values" name="To validate the booking details functionality 2" time="31.387694">
+<system-out><![CDATA[Given User is in adactin login page.........................................passed
+When User enter valid username and password.................................passed
+And User click login button.................................................passed
+Given User is in adactin booking details page...............................passed
+When user select "Melbourne" and "Hotel Sunshine" and "Double" and "2 - Two" and "2 - Two" and "2 - Two".passed
+And user select the required hotel and click continue.......................passed
+And user enter the "bala" and "arun" and "asdfa" and "7894561230123456" select"VISA" and "February" and "2022" and "345" click book now.passed
+Then user in booking confirmation page......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
